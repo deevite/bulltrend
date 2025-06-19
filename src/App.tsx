@@ -242,7 +242,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <img src="/src/assets/лого.png" alt="Bulltrend" className="h-8 w-auto" />
+              <img src="/лого.png" alt="Bulltrend" className="h-8 w-auto" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
                 Bulltrend
               </span>
@@ -392,7 +392,7 @@ function App() {
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 text-center">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-purple-400">
                 <img 
-                  src="/src/assets/превью саша.png" 
+                  src="/превью саша.png" 
                   alt="Александр" 
                   className="w-full h-full object-cover"
                 />
@@ -409,7 +409,7 @@ function App() {
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 text-center">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-cyan-400">
                 <img 
-                  src="/src/assets/адилет превью.png" 
+                  src="/адилет превью.png" 
                   alt="Адилет" 
                   className="w-full h-full object-cover"
                 />
