@@ -359,7 +359,7 @@ function App() {
                 </p>
                 <div className="flex items-center space-x-2 text-sm text-gray-400">
                   <Calendar className="w-4 h-4" />
-                  <span> с понедельника по пятницу в 11:00 МСК</span>
+                  <span> C понедельника по пятницу в 11:00 - 16:30 МСК</span>
                 </div>
               </div>
               
