@@ -216,7 +216,7 @@ function App() {
   };
 
   const handleApplicationClick = () => {
-    window.open('tg://resolve?domain=BullTrendAdmin', '_blank');
+    window.open('tg://resolve?domain=bulltrend_admin', '_blank');
   };
 
   const scrollToDetails = (detailsType) => {
