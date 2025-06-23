@@ -710,7 +710,7 @@ function App() {
           {/* Mobile-friendly social links */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 mb-12">
             <a 
-              href="tg://resolve?domain=BullTrendChannel"" 
+              href="tg://resolve?domain=BullTrendChannel"
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-700 hover:border-purple-400 transition-colors w-full sm:w-auto justify-center"
