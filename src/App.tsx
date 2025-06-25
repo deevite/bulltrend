@@ -517,10 +517,10 @@ function App() {
 
             {/* Premium Plan */}
             <div 
-              className={"bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative"
-                (selectedPlan === 'premium' 
+              className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative"
+                selectedPlan === 'premium' 
                   ? 'border-purple-400 shadow-lg shadow-purple-400/20 scale-105' 
-                  : 'border-gray-700 hover:border-purple-400/50')
+                  : 'border-gray-700 hover:border-purple-400/50'
               }}
               onClick={() => setSelectedPlan(selectedPlan === 'premium' ? null : 'premium')}
             >
@@ -762,5 +762,14 @@ function App() {
     </div>
   );
 }
+
+
+        <button
+          onClick={() => window.open('https://t.me/+5V0NUD70uO9iOTNi', '_blank')}
+          className="mt-4 inline-block text-sm text-cyan-400 underline hover:text-cyan-300 transition"
+        >
+          Все отзывы
+        </button>
+
 
 export default App;
