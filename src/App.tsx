@@ -341,7 +341,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Calendar className="w-5 h-5 text-purple-400" />
-                  <span>Занятия по понедельникам и пятницам в 17:00 МСК</span>
+                  <span>Занятия понедельник и пятница в 17:00-19:00 МСК</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MessageSquare className="w-5 h-5 text-cyan-400" />
@@ -359,7 +359,7 @@ function App() {
                 </p>
                 <div className="flex items-center space-x-2 text-sm text-gray-400">
                   <Calendar className="w-4 h-4" />
-                  <span>Понедельник и пятница в 11:00 МСК</span>
+                  <span> c Понедельника по пятницу в 11:00 МСК</span>
                 </div>
               </div>
               
@@ -393,7 +393,7 @@ function App() {
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-purple-400">
                 <img 
                   src="/src/assets/превью саша.png" 
-                  alt="Александр" 
+                  alt="Александр" width={300}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -410,7 +410,7 @@ function App() {
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-cyan-400">
                 <img 
                   src="/src/assets/адилет превью.png" 
-                  alt="Адилет" 
+                  alt="Адилет" width={300}
                   className="w-full h-full object-cover"
                 />
               </div>
