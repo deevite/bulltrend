@@ -742,17 +742,7 @@ function App() {
               </svg>
               <span>YouTube</span>
             </a>
-          
-            <a 
-              href="https://t.me/+5V0NUD70uO9iOTNi" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-700 hover:border-cyan-400 transition-colors w-full sm:w-auto justify-center"
-            >
-              <TelegramIcon className="w-6 h-6" />
-              <span>Отзывы</span>
-            </a>
-</div>
+          </div>
           
           <button 
             onClick={handleApplicationClick}
