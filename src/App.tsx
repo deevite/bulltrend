@@ -517,10 +517,10 @@ function App() {
 
             {/* Premium Plan */}
             <div 
-              className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative"
-                selectedPlan === 'premium' 
+              className={"bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative"
+                (selectedPlan === 'premium' 
                   ? 'border-purple-400 shadow-lg shadow-purple-400/20 scale-105' 
-                  : 'border-gray-700 hover:border-purple-400/50'
+                  : 'border-gray-700 hover:border-purple-400/50')
               }}
               onClick={() => setSelectedPlan(selectedPlan === 'premium' ? null : 'premium')}
             >
@@ -687,7 +687,7 @@ function App() {
             
             <div className="text-center mt-8">
               <button 
-                onClick={() => window.open('https://t.me/BullTrendChannel', '_blank')}
+                onClick={() => window.open('https://t.me/BullTrendChannel', '_blank');
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-cyan-600 px-6 py-3 rounded-full hover:from-purple-700 hover:to-cyan-700 transition-all duration-300"
               >
                 <TelegramIcon className="w-5 h-5" />
