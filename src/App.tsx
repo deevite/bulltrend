@@ -763,13 +763,4 @@ function App() {
   );
 }
 
-
-        <button
-          onClick={() => window.open('https://t.me/+5V0NUD70uO9iOTNi', '_blank')}
-          className="mt-4 inline-block text-sm text-cyan-400 underline hover:text-cyan-300 transition"
-        >
-          Все отзывы
-        </button>
-
-
 export default App;
