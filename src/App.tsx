@@ -687,7 +687,7 @@ function App() {
             
             <div className="text-center mt-8">
               <button 
-                onClick={() => window.open('https://web.telegram.org/a/#-1001370993888', '_blank')}
+                onClick={() => window.open('https://t.me/BullTrendChannel')}
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-cyan-600 px-6 py-3 rounded-full hover:from-purple-700 hover:to-cyan-700 transition-all duration-300"
               >
                 <TelegramIcon className="w-5 h-5" />
@@ -719,19 +719,6 @@ function App() {
               <span>Telegram</span>
             </a>
 
-             <a 
-        href="https://t.me/+5V0NUD70uO9iOTNi" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-700 hover:border-cyan-400 transition-colors w-full sm:w-auto justify-center"
-      >
-        <TelegramIcon className="w-6 h-6" />
-        <span>Новостной Telegram</span>
-      </a>
-    </div>
-  </div>
-</section>
-            
             <a 
               href="https://www.instagram.com/dagaziev.r/" 
               target="_blank" 
