@@ -221,7 +221,7 @@ function App() {
 
   const scrollToDetails = (detailsType) => {
     setTimeout(() => {
-      const element = document.getElementById(`${detailsType}-details`);
+      const element = document.getElementById(${detailsType}-details);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
@@ -455,11 +455,11 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Advanced Plan */}
             <div 
-              className={`bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer ${
+              className={bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer ${
                 selectedPlan === 'advanced' 
                   ? 'border-cyan-400 shadow-lg shadow-cyan-400/20 scale-105' 
                   : 'border-gray-700 hover:border-cyan-400/50'
-              }`}
+              }}
               onClick={() => setSelectedPlan(selectedPlan === 'advanced' ? null : 'advanced')}
             >
               <h3 className="text-2xl font-bold mb-4 text-cyan-400">Продвинутый</h3>
@@ -517,11 +517,11 @@ function App() {
 
             {/* Premium Plan */}
             <div 
-              className={`bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative ${
+              className={bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative ${
                 selectedPlan === 'premium' 
                   ? 'border-purple-400 shadow-lg shadow-purple-400/20 scale-105' 
                   : 'border-gray-700 hover:border-purple-400/50'
-              }`}
+              }}
               onClick={() => setSelectedPlan(selectedPlan === 'premium' ? null : 'premium')}
             >
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
@@ -676,9 +676,9 @@ function App() {
                     <button
                       key={index}
                       onClick={() => setCurrentTestimonial(index)}
-                      className={`w-3 h-3 rounded-full transition-colors ${
+                      className={w-3 h-3 rounded-full transition-colors ${
                         index === currentTestimonial ? 'bg-purple-400' : 'bg-gray-600'
-                      }`}
+                      }}
                     />
                   ))}
                 </div>
@@ -707,7 +707,7 @@ function App() {
             </span>
           </h2>
           
-     {/* Mobile-friendly social links */}
+          {/* Mobile-friendly social links */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 mb-12">
             <a 
               href="https://t.me/BullTrendChannel" 
@@ -718,6 +718,7 @@ function App() {
               <TelegramIcon className="w-6 h-6" />
               <span>Telegram</span>
             </a>
+            
             <a 
               href="https://www.instagram.com/dagaziev.r/" 
               target="_blank" 
