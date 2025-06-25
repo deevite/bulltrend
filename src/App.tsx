@@ -221,7 +221,7 @@ function App() {
 
   const scrollToDetails = (detailsType) => {
     setTimeout(() => {
-      const element = document.getElementById(`${detailsType}-details);
+      const element = document.getElementById(`${detailsType}-details`);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
