@@ -719,15 +719,14 @@ function App() {
     <span>Telegram</span>
   </a>
 
-  {/* Новостной Telegram (Отзывы) */}
   <a 
     href="https://t.me/+5V0NUD70uO9iOTNi" 
     target="_blank" 
     rel="noopener noreferrer"
-    className="flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-700 hover:border-blue-400 transition-colors w-full sm:w-auto justify-center"
+    className="flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-700 hover:border-cyan-400 transition-colors w-full sm:w-auto justify-center"
   >
     <TelegramIcon className="w-6 h-6" />
-    <span>Отзывы Telegram</span>
+    <span>Все отзывы</span>
   </a>
 
   <a 
@@ -754,10 +753,3 @@ function App() {
     <span>YouTube</span>
   </a>
 </div>
-
-<button 
-  onClick={handleApplicationClick}
-  className="bg-gradient-to-r from-purple-600 to-cyan-600 px-8 py-4 rounded-full text-lg font-semibold hover:from-purple-700 hover:to-cyan-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
->
-  Начать обучение сегодня
-</button>
