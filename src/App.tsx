@@ -687,7 +687,7 @@ function App() {
             
             <div className="text-center mt-8">
               <button 
-                onClick={() => window.open('https://t.me/BullTrendChannel')}
+                onClick={() => window.open('https://t.me/BullTrendChannel', '_blank');
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-cyan-600 px-6 py-3 rounded-full hover:from-purple-700 hover:to-cyan-700 transition-all duration-300"
               >
                 <TelegramIcon className="w-5 h-5" />
