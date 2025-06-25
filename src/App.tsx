@@ -393,7 +393,7 @@ function App() {
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-purple-400">
                 <img 
                   src="/превью саша.png" 
-                  alt="Александр" width={300}
+                  alt="Александр" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -410,7 +410,7 @@ function App() {
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-cyan-400">
                 <img 
                   src="/адилет превью.png" 
-                  alt="Адилет" width={300}
+                  alt="Адилет" 
                   className="w-full h-full object-cover"
                 />
               </div>
