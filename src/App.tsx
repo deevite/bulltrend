@@ -216,7 +216,7 @@ function App() {
   };
 
   const handleApplicationClick = () => {
-    window.open('https://web.telegram.org/a/#1615820349', '_blank');
+    window.open(('https://t.me/BullTrendChannel', '_blank');
   };
 
   const scrollToDetails = (detailsType) => {
