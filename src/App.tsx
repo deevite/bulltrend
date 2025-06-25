@@ -455,7 +455,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Advanced Plan */}
             <div 
-              className={bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer ${
+              className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer"
                 selectedPlan === 'advanced' 
                   ? 'border-cyan-400 shadow-lg shadow-cyan-400/20 scale-105' 
                   : 'border-gray-700 hover:border-cyan-400/50'
@@ -517,7 +517,7 @@ function App() {
 
             {/* Premium Plan */}
             <div 
-              className={bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative ${
+              className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border transition-all duration-300 cursor-pointer relative"
                 selectedPlan === 'premium' 
                   ? 'border-purple-400 shadow-lg shadow-purple-400/20 scale-105' 
                   : 'border-gray-700 hover:border-purple-400/50'
